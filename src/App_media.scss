@@ -1,0 +1,523 @@
+@media only screen and (max-width: 1200px) {
+
+
+    .header {
+        .nav {
+            ul {
+                margin: auto;
+                position: absolute;
+                left: 20px;
+                top: 42px;
+            }
+        }
+    }
+
+    #second_part {
+
+        img {
+            height: 460px;
+            width: 460px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 38px;
+        }
+
+        .about_us {
+            width: 460px;
+        }
+
+        .play {
+            font-size: 16px;
+        }
+
+    }
+
+    .third_part {
+        .our_products {
+
+            max-width: 620px;
+
+            p {
+                font-size: 22px;
+            }
+        }
+
+        .services {
+            max-width: 960px;
+            margin: auto;
+
+            .service_part1 {
+                .services_1 {
+
+                    width: 480px;
+                    height: 320px;
+
+                    img {
+                        width: 480px;
+                        height: 320px;
+                    }
+                }
+
+                .services_2 {
+                    width: 480px;
+                    height: 320px;
+                }
+
+            }
+
+        }
+
+        .call_action {
+
+            .call_actions {
+
+                max-width: 760px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .fourth_part {
+        h1 {
+            font-size: 38px;
+        }
+
+        .fourth_part_grid {
+
+            width: 900px;
+
+            .choose_1 {
+                p {
+                    font-size: 14px;
+                }
+
+                .choose_1_flexx {
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .fifth_part {
+        .join_our {
+
+            width: 900px;
+            margin: auto;
+
+            h1 {
+                font-size: 38px;
+            }
+
+            p {
+                font-size: 22px;
+            }
+        }
+
+        .input_field {
+
+            form {
+
+                input,
+                textarea {
+                    width: 620px;
+                }
+
+                .error_msg {
+                    width: 620px;
+                }
+            }
+
+            .thank_you {
+                width: 620px;
+            }
+
+
+        }
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+
+
+    .header {
+        height: auto;
+
+        .nav {
+            display: none;
+
+            ul {}
+        }
+
+        .nav_mobile {
+            display: block;
+        }
+
+        .beIt {
+
+            h1 {
+                font-size: 58px;
+
+            }
+
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+
+    #second_part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top: 100px;
+
+        img {
+            width: 600px;
+            height: 646px;
+        }
+    }
+
+    .third_part {
+        .our_products {
+            p {
+                font-size: 22px;
+            }
+        }
+
+        .services {
+            max-width: 640px;
+            margin: auto;
+
+            .service_part1 {
+                .services_1 {
+
+                    width: 320px;
+                    height: 213px;
+
+                    img {
+                        width: 320px;
+                        height: 213px;
+                    }
+                }
+
+                .services_2 {
+                    width: 320px;
+                    height: 213px;
+                }
+
+            }
+
+        }
+
+        .call_action {
+
+            .call_actions {
+                flex-direction: column;
+                max-width: 560px;
+
+                p {
+                    font-size: 20px;
+                }
+
+                button {
+                    margin: auto;
+                    margin-top: 30px;
+                    width: 200px;
+                }
+
+            }
+        }
+    }
+
+    .fourth_part {
+        h1 {
+            font-size: 38px;
+        }
+
+        .fourth_part_grid {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            width: 630px;
+            margin: auto;
+
+            .choose_1 {
+                p {
+                    font-size: 14px;
+                }
+
+                .choose_1_flexx {
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .fifth_part {
+        margin-top: 100px;
+
+        .join_our {
+
+            width: auto;
+            margin: auto;
+
+            h1 {
+                font-size: 38px;
+            }
+
+            p {
+                font-size: 22px;
+            }
+        }
+
+        .input_field {
+
+            form {
+
+                input,
+                textarea {
+                    width: 620px;
+                }
+
+
+                .error_msg {
+                    width: 600px;
+                }
+            }
+
+            .thank_you {
+                width: 600px;
+            }
+
+        }
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+
+
+
+    .header {
+        .beIt {
+
+            h1 {
+                font-size: 48px;
+
+            }
+
+            p {
+                font-size: 18px;
+                margin: 20px 15px;
+            }
+        }
+    }
+
+    #second_part {
+
+        .photo {
+            margin: auto 30px;
+
+            img {
+                width: 100%;
+                height: auto;
+
+            }
+        }
+
+        .about_us {
+            width: calc(100% - 40px);
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .sentence {
+                font-size: 16px;
+            }
+
+            .play {
+                font-size: 12px;
+            }
+        }
+    }
+
+
+    .third_part {
+        .our_products {
+            p {
+                width: calc(100% - 40px);
+                margin-left: 20px;
+                margin-right: 20px;
+                font-size: 22px;
+            }
+        }
+
+        .services {
+            width: 100%;
+
+            .service_part1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .service_part1 {
+                .services_1 {
+
+                    width: 100%;
+                    height: auto;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .services_2 {
+                    width: 100%;
+                    height: 274px;
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                    h1 {
+                        font-size: 28px;
+                    }
+                }
+
+            }
+
+        }
+
+        .call_action {
+            .call_actions {
+                p {
+                    width: calc(100% - 50px);
+                    font-size: 18px;
+                }
+            }
+
+        }
+    }
+
+    .fourth_part {
+        h1 {
+            font-size: 38px;
+        }
+
+        .fourth_part_grid {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: auto;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            .choose_1 {
+                p {
+                    font-size: 14px;
+                }
+
+                .choose_1_flexx {
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .fifth_part {
+        margin-top: 100px;
+
+        .join_our {
+
+            width: auto;
+            margin: auto;
+
+            h1 {
+                font-size: 30px;
+                padding: 0 20px;
+                padding-top: 150px;
+                padding-bottom: 50px;
+            }
+
+            p {
+                font-size: 20px;
+                width: auto;
+                padding: 0 20px;
+
+            }
+        }
+
+        .input_field {
+            h1 {
+                font-size: 30px;
+            }
+
+            form {
+
+                input,
+                textarea {
+                    width: calc(100% - 40px);
+                    margin: 10px 20px;
+                }
+
+                .error_msg {
+                    width: calc(100% - 40px);
+                }
+            }
+
+            .thank_you {
+                width: calc(100% - 40px);
+            }
+
+            button {
+                width: calc(100% - 40px);
+            }
+
+        }
+    }
+
+    .sixth_part {
+        p {
+            width: calc(100% - 40px);
+            margin: 0 20px;
+        }
+
+        .hover_text {
+            .tilda {
+                width: calc(100% - 20px);
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 453px) {
+        .fifth_part{
+            .input_field{
+                .thank_you{
+                    height: 120px;
+                }
+            }
+        }
+}
